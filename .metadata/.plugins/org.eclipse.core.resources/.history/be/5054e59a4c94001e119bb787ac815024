@@ -1,0 +1,9 @@
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.hibernate.show-sql=true
+spring.datasource.url=jdbc:postgresql://webapplicationdemo.cqiv030c78da.eu-north-1.rds.amazonaws.com:5432/webapplicationdemo
+spring.datasource.username=postgres
+spring.datasource.password=12345
+spring.jpa.properties.javax.persistence.validation.mode = none
+
+server.PORT = 8081
